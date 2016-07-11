@@ -1,0 +1,10 @@
+uuid: b9457ac0-cad0-4686-9c05-0509330cc480
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - sailendra.shakya@gmail.com
+reply: ''
+weight: 0

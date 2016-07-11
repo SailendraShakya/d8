@@ -1,0 +1,10 @@
+uuid: 1f9b1d6a-6ad7-4364-a900-ea9cf9bc5d5e
+langcode: en
+status: true
+dependencies: {  }
+id: enquiry
+label: Enquiry
+recipients:
+  - sailendra.shakya@gmail.com
+reply: ''
+weight: 0

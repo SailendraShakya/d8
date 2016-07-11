@@ -1,0 +1,12 @@
+uuid: f6118c9a-8f26-487a-8a2f-47ee35a25d1e
+name: 'Summer Lawyers'
+mail: sailendra.shakya@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

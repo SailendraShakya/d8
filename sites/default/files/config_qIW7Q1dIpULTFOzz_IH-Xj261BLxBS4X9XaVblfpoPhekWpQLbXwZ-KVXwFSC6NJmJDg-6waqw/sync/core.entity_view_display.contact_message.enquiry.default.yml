@@ -1,0 +1,42 @@
+uuid: a35a8ff1-2a38-4b9a-9000-d326b05ecf17
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.enquiry
+    - field.field.contact_message.enquiry.field_email
+    - field.field.contact_message.enquiry.field_name
+    - field.field.contact_message.enquiry.field_phone
+id: contact_message.enquiry.default
+targetEntityType: contact_message
+bundle: enquiry
+mode: default
+content:
+  field_email:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_name:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_phone:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  message:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }
